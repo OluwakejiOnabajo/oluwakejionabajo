@@ -233,6 +233,7 @@ padding-bottom: 40px;
 
 .contact{
     display: flex;
+    background-color: white;
 }
 
 .contact .contact-us, .contact .map{
@@ -396,7 +397,7 @@ footer .copy span{
     color: #926666;
 }
 
-.services, .portfolio{
+.services{
     padding: 40px 120px;
     text-align: center;
 }
@@ -413,7 +414,7 @@ footer .copy span{
     margin: auto;
 }
 
-.service-row, .portfolio-row{
+.service-row{
     display: flex;
     justify-content: center;
     padding: 0 120px;
@@ -438,11 +439,40 @@ footer .copy span{
    
 }
 
-.portfolio .portfo{
-    width: 33.33%;
-    padding: 30px;
-    background-color: white;
-    margin: 10px;
+.portfolio{
+    padding: 40px 120px;
+    text-align: center;
 }
+
+.portfolio-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.portfolio-row .port{
+    width: 50%;
+}
+
+
+.port img{
+    width: 500px;
+    padding: 10px 0;
+    z-index: -1000;
+}
+ 
+.port img:hover{
+    /* position: fixed; Sit on top of the page content */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2000; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+
 
 
