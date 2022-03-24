@@ -87,6 +87,7 @@ nav .logo span{
     background-size: cover;
     display: flex;
     background-color: rgb(154, 80, 219);
+    padding-top: 100px;
 }
 
 .hero .profile-img{
@@ -94,8 +95,7 @@ nav .logo span{
 }
 
 .hero .profile-img img{
-    width: 100%;
-    padding-right: 120px;
+    width: 60%;
     float: right;
 }
 .hero .text{
@@ -191,7 +191,7 @@ nav .logo span{
     margin-right: 30px;
     margin-top: -20px;
     float: right;
-    background-image: url(../images/about-image.png);
+    background-image: url(../images/IMG-20220228-WA0014-removebg-preview.png);
     width: 400px;
     height: 500px;
     background-size: cover;
@@ -395,3 +395,54 @@ footer .copy span{
     font-weight: bold;
     color: #926666;
 }
+
+.services, .portfolio{
+    padding: 40px 120px;
+    text-align: center;
+}
+
+.services span, .portfolio span{
+    font-weight: bold;
+    color: blue;
+}
+
+.services h1, .portfolio h1{
+    width: 600px;
+    font-size: 40px;
+    margin-top: 0;
+    margin: auto;
+}
+
+.service-row, .portfolio-row{
+    display: flex;
+    justify-content: center;
+    padding: 0 120px;
+}
+
+.service-row .service{
+    width: 25%;
+    padding: 30px;
+    background-color: white;
+    margin: 20px;
+}
+.service-row .service h3{
+    color: blue;
+}
+
+.service-row .service p{
+    color: #ACACAC;
+}
+
+.service-row .service a{
+   text-decoration: none;
+   
+}
+
+.portfolio .portfo{
+    width: 33.33%;
+    padding: 30px;
+    background-color: white;
+    margin: 10px;
+}
+
+
